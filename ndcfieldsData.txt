@@ -1,0 +1,47 @@
+<key id="labelV" for="node" attr.name="labelV" attr.type="string" />
+  <key id="ndc_name" for="node" attr.name="ndc_name" attr.type="string" />
+  <key id="ndc_xpath" for="node" attr.name="ndc_xpath" attr.type="string" />
+  <key id="ndc_version" for="node" attr.name="ndc_version" attr.type="string" />
+  <key id="ndc_rqNode" for="node" attr.name="ndc_rqNode" attr.type="boolean" />
+  <key id="ndc_serviceName" for="node" attr.name="ndc_serviceName" attr.type="string" />
+  <key id="ndc_synonymList" for="node" attr.name="ndc_synonymList" attr.type="string" />
+  <key id="ndc_leafNode" for="node" attr.name="ndc_leafNode" attr.type="boolean" />
+  <key id="ndc_mandatory" for="node" attr.name="ndc_mandatory" attr.type="boolean" />
+  <key id="ndc_aidmtype" for="node" attr.name="ndc_aidmtype" attr.type="string" />
+  <key id="ndc_xsdtype" for="node" attr.name="ndc_xsdtype" attr.type="string" />
+  <key id="ndc_minValue" for="node" attr.name="ndc_minValue" attr.type="int" />
+  <key id="ndc_maxValue" for="node" attr.name="ndc_maxValue" attr.type="int" />
+  <key id="ndc_enumValues" for="node" attr.name="ndc_enumValues" attr.type="string" />
+  <key id="ndc_sampleValues" for="node" attr.name="ndc_sampleValues" attr.type="string" />
+  <key id="ndc_docKeyWords" for="node" attr.name="ndc_docKeyWords" attr.type="string" />
+  <key id="ndc_fieldValueFormat" for="node" attr.name="ndc_fieldValueFormat" attr.type="string" />
+  <key id="ndc_masterData" for="node" attr.name="ndc_masterData" attr.type="boolean" />
+  <key id="labelE" for="edge" attr.name="labelE" attr.type="string" />
+  <key id="ndc_leafmapping" for="edge" attr.name="ndc_leafmapping" attr.type="boolean" />
+  <key id="ndc_mappingCategory" for="edge" attr.name="ndc_mappingCategory" attr.type="string" />
+
+
+
+  mgmt.makePropertyKey("labelV").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_name").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_xpath").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_version").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_rqNode").dataType(Boolean.class).make()
+  mgmt.makePropertyKey("ndc_serviceName").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_synonymList").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_leafNode").dataType(Boolean.class).make()
+  mgmt.makePropertyKey("ndc_mandatory").dataType(Boolean.class).make()
+  mgmt.makePropertyKey("ndc_aidmtype").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_xsdtype").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_minValue").dataType(Integer.class).make()
+  mgmt.makePropertyKey("ndc_maxValue").dataType(Integer.class).make()
+  mgmt.makePropertyKey("ndc_enumValues").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_sampleValues").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_docKeyWords").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_fieldValueFormat").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_masterData").dataType(Boolean.class).make()
+  mgmt.makePropertyKey("labelE").dataType(String.class).make()
+  mgmt.makePropertyKey("ndc_leafmapping").dataType(Boolean.class).make()
+  mgmt.makePropertyKey("ndc_mappingCategory").dataType(String.class).make()
+
+
